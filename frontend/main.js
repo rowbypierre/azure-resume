@@ -3,19 +3,18 @@ window.addEventListener('DOMContentLoaded', (event) =>{         // When this con
     getVisitCount();
 })
 
-const functionApi = '';
+const functionApi = 'http://localhost:7071/api/GetResumeCounter';
 
 //CREATE FUNCTION
 const getVisitCount = () => {
-    let count = 30; Promise<Response>                           //count variable temporarily set to 30 
-    fetch(functionApi).then(repsonse => {                       //fetch function api data, grab response, return JSON
-        return Response.json()
-    }).then(response => {
-        console.log("Website called function API.");            //log response to console for debugging purposes
-        count = response.count;                                 //count variable set to json resonse data
-        document.getElementById("counter").innerText = count;   //set counter innner text to count variable 
-    }).catch(function(error){ 
-        console.log(error);                                     //grab any erros & log message to console for debugging
-    });
-    return count;
-}
+    fetch(functionApi)
+        .then(response => response.json()) // Parse response as JSON
+        .then(data => {
+            console.log("Website called function API.");
+            const count = data.count; // Get the count value from the JSON data
+            document.getElementById("counter").innerText = count;
+        })
+        .catch(error => {
+            console.log(error);
+        });
+};

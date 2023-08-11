@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <!-- Set the target framework for the project -->
+    <TargetFramework>net7.0</TargetFramework>
+    <!-- Specify the Azure Functions runtime version -->
+    <AzureFunctionsVersion>v4</AzureFunctionsVersion>
+    <!-- Set the output type to executable -->
+    <OutputType>Exe</OutputType>
+    <!-- Enable implicit usings of common namespaces -->
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!-- Enable nullable reference types -->
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- Add references to required Azure Functions Worker packages -->
+    <PackageReference Include="Microsoft.Azure.Functions.Worker" Version="1.4.0" />
+    <PackageReference Include="Microsoft.Azure.Functions.Worker.Extensions.CosmosDB" Version="3.0.9" />
+    <PackageReference Include="Microsoft.Azure.Functions.Worker.Extensions.Http" Version="3.0.13" />
+    <PackageReference Include="Microsoft.Azure.Functions.Worker.Sdk" Version="1.13.1" />
+    <!-- Add references to required CosmosDB and Cosmos packages -->
+    <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.CosmosDB" Version="4.1.1" />
+    <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.35.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- Include host and local settings files -->
+    <None Update="host.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="local.settings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>Never</CopyToPublishDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <!-- Include a using directive for the ExecutionContext namespace with an alias -->
+    <Using Include="System.Threading.ExecutionContext" Alias="ExecutionContext" />
+  </ItemGroup>
+</Project>
+
+<!-- This XML project file configures your Azure Functions project. It specifies the target framework, 
+Azure Functions runtime version, 
+necessary package references, 
+and includes necessary configuration files. -->
