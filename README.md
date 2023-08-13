@@ -1,2 +1,0 @@
-# azure-resume
-Azure resume
