@@ -21,7 +21,7 @@ namespace Company.Function
             [HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequestData req,
             FunctionContext context)
         {
-            // Initialize logger
+            // Initialize logger and update counter
             var logger = context.GetLogger("GetResumeCounter");
             logger.LogInformation("C# HTTP trigger function processed a request.");
 
