@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<!-- saved from url=(0027)https://www.rowbypierre.me/ -->
+<html class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths" lang="en" style=""><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   
+	<title>Rowby's Resume</title>
+	<meta name="description" content="Explore my cloud computing journey, skills, 
+                                    and accomplishments through my personal resume website, 
+                                    showcasing expertise in AWS, Azure, and Google Cloud.">
+	<meta name="author" content="Rowby Pierre">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="./Rowby&#39;s Resume Webpage_files/default.css">
+	<link rel="stylesheet" href="./Rowby&#39;s Resume Webpage_files/layout.css">
+   <link rel="stylesheet" href="./Rowby&#39;s Resume Webpage_files/media-queries.css">
+   <link rel="stylesheet" href="./Rowby&#39;s Resume Webpage_files/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+   <script src="./Rowby&#39;s Resume Webpage_files/modernizr.js.download"></script>
+   <script src="./Rowby&#39;s Resume Webpage_files/main.js.download"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="https://www.rowbypierre.me/favicon.png">
+
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1087.0" data-gr-ext-installed="" style="">
+
+   <!-- Header
+   ================================================== -->
+   <header id="home" style="height: 1000px;">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="https://www.rowbypierre.me/#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="https://www.rowbypierre.me/#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="https://www.rowbypierre.me/#home">Home</a></li>
+            <li><a class="smoothscroll" href="https://www.rowbypierre.me/#about">About</a></li>
+	         <li><a class="smoothscroll" href="https://www.rowbypierre.me/#resume">Resume</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline" style="font-size: 90px;">Hi, I'm Rowby</h1>
+            
+            <p>and this page has been viewed <a id="counter"></a> times :) </p> 
+            <ul class="social">
+               <!--<li><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>-->
+               <li><a href="https://www.linkedin.com/in/rowby-p-94244992/"><i class="fa fa-linkedin"></i></a></li>
+               <!--<li><a href="https://"><i class="fa fa-external-link"></i></a></li>-->
+               <!--<li><a href="https://instagram.com/"><i class="fa fa-instagram"></i></a></li>-->
+               <!--<li><a href="https://youtube.com/"><i class="fa fa-youtube"></i></a></li>-->
+               <li><a href="https://github.com/rowbypierre"><i class="fa fa-github"></i></a></li>
+            </ul>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="https://www.rowbypierre.me/#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic" src="./Rowby&#39;s Resume Webpage_files/me.jpg" alt="">
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>ABOUT ME</h2>
+
+            <p> Hi, I'm Rowby Pierre, <span>database administrator intern at <a href="https://vitalant.org/">Vitalant</a></span>, attending senior at<span> <a href="https://www.uncg.edu/degrees/information-science-b-s/">the University of North Carolina at Greensboro</a></span>
+               and <span><a href="https://www.marines.mil/">United States Marine Corps veteran</a></span> .As an aspiring cloud enthusiast, I am eager to embark on a journey of cloud mastery, seeking its elegant intricacies and embracing its undeniable allure to empower modern innovation. 
+               
+         <br>
+      <br>
+       I built this page as part of the <span><a href="https://github.com/rowbypierre/azure-resume"> Cloud Azure Resume Challenge.</a></span>
+            
+
+         </p></div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Certifications</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Microsoft Certified: Azure Fundamentals - AZ900</h3>
+                  <p class="info"><em class="date">June 2023</em></p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Microsoft Certified: Azure Database Administrator Associate - DP300</h3>
+                  <p class="info"><em class="date">August 2023</em></p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Google Data Analytics Professional Certificate</h3>
+                  <p class="info"><em class="date">August 2022</em></p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+      
+      <!-- Academia
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Academia</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>University of North Carolina at Greensboro</h3>
+                  <p class="info">Information Science B.S. <span>•</span> <em class="date"> August 2022 - May 2024</em></p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Coastal Carolina Community College</h3>
+                  <p class="info">Associate of Science <span>•</span> <em class="date"> August 2021 - July 2022</em></p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+      <!-- Work
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Work</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Vitalant | A Blood Servicing Company</h3>
+                  <p class="info">Database Administrator Intern <span>•</span> <em class="date">February 2023 - Present</em></p>
+
+                  <p>
+                     </p><li>Collaborated with senior admins, enhancing DB performance, conducting seamless data migrations on-premises and in the cloud.</li> 
+                     <li>Ensured top-notch DB efficiency and security through backups, audits in compliance with regulators.</li> 
+                     <li>Achieved maximum DB uptime, resolving issues, and optimizing performance.</li> 
+                     <li>Proficiently generated insightful reports for stakeholders.</li> 
+                     <li>Exercised effective communication, problem-solving, time management, attention to detail, and collaboration skills daily.</li>                  
+                  <p></p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>United States Marine Corps</h3>
+                  <p class="info">Logistics &amp; Embarkation <span>•</span> <em class="date">August 2016 - August 2020</em></p>
+
+                  <p>
+                     </p><li>Direct availability and allocation of mission-critical materials, supplies, and finished products.</li>
+                     <li>Stay abreast of cutting-edge logistics technology to optimize critical processes.</li>
+                     <li>Facilitate the swift movement of personnel, supplies, and crucial equipment across all transportation modes.</li>
+                     <li>Enforce stringent shipping procedures for mission-critical equipment in compliance with International regulations.</li>
+                  <p></p>
+                  <p></p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+
+      
+
+   </section> <!-- Resume Section End-->
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+               <!--<li><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>-->
+               <li><a href="https://www.linkedin.com/in/rowby-p-94244992/"><i class="fa fa-linkedin"></i></a></li>
+               <!--<li><a href="https://"><i class="fa fa-external-link"></i></a></li>-->
+               <!--<li><a href="https://instagram.com/"><i class="fa fa-instagram"></i></a></li>-->
+               <!--<li><a href="https://youtube.com/"><i class="fa fa-youtube"></i></a></li>-->
+               <li><a href="https://github.com/rowbypierre"><i class="fa fa-github"></i></a></li>
+            </ul>
+
+            <ul class="copyright">
+               <a href="https://www.styleshout.com/free-templates/ceevee/"> Template by CeeVee </a>
+                
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="https://www.rowbypierre.me/#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="./Rowby&#39;s Resume Webpage_files/jquery.min.js.download"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script><script src="./Rowby&#39;s Resume Webpage_files/jquery-1.10.2.min.js.download"></script>
+   <script type="text/javascript" src="./Rowby&#39;s Resume Webpage_files/jquery-migrate-1.2.1.min.js.download"></script>
+
+   <script src="./Rowby&#39;s Resume Webpage_files/jquery.flexslider.js.download"></script>
+   <script src="./Rowby&#39;s Resume Webpage_files/waypoints.js.download"></script>
+   <script src="./Rowby&#39;s Resume Webpage_files/jquery.fittext.js.download"></script>
+   <script src="./Rowby&#39;s Resume Webpage_files/magnific-popup.js.download"></script>
+   <script src="./Rowby&#39;s Resume Webpage_files/init.js.download"></script>
+
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
